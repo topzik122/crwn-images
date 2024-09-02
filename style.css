@@ -39,6 +39,8 @@ main {
     background-position: center center;
     cursor: pointer;
     transition: all 6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    display: grid;
+    place-items: center;
 }
 
 .menu-item:hover {
@@ -73,4 +75,23 @@ main {
 
 .sneakers {
     background-image: url('images/sneakers.png');
+}
+
+.menu-item-shop-now{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 254, 254);
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.menu-item-shop-now h5{
+    font-size: 24px;
+    text-transform:uppercase;
+}
+
+.menu-item-shop-now p{
+    font-size: 20px;
+    text-transform: lowercase;
 }
